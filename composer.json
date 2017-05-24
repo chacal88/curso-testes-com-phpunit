@@ -1,0 +1,23 @@
+{
+    "name": "chacal/test",
+    "description": "Cases de Testes para estudo",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "Chacal\\":"src/"
+        }
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Kaue Rodrigues",
+            "email": "kauemsc@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
